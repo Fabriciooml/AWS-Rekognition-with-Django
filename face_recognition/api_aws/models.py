@@ -32,7 +32,7 @@ class Face(models.Model):
   
   @classmethod
   def recognize(cls):
-    collectionId='desafio_javier'
+    collectionId='INSERT YOUR COLLECTION ID HERE'
     threshold = 70
     maxFaces=2
     client=boto3.client('rekognition')
